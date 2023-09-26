@@ -1,8 +1,8 @@
 # NASA-API
-Breakdown of my NASA Fact of the day Api project
+Breakdown of my NASA Fact of the day Api project ( read in code format ) 
 
 
-I unfortunately lost the files since my old laptop crashed, but I will talk about the creation process 
+I unfortunately lost the files since my old laptop stopped working out of the blue and lost many files in the process 😔, but I will talk about the creation process 
 
 link: https://apiproject1obada.netlify.app/
 (thankfully I had it hosted)
