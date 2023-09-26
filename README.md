@@ -13,20 +13,18 @@ I used an HTML form( type="date") to pick a certain day, then I could use that i
 
 I used an standard API getfetch teamplate from Mozilla 
 
-JS code looks something like this: 
+My JS code looks something like this: 
+
 
 document.querySelector('button').addEventListener('click', getFetch)
-
 function getFetch(){
     const choice = document.querySelector("input").value
     const url = `https://api.nasa.gov/planetary/apod?api_key=jaI8lrnQIZUjURKsMtfSgEZN0gXfI5bbDrt3Olqr&date=${choice}`
-
-  fetch(url)
+fetch(url)
       .then(res => res.json()) // parse response as JSON
       .then(data => {
         console.log(data)
         document.querySelector("h3").innerText = data.explanation
-        
         if (data.media_type === "image"){
         document.getElementById("one").style.display = "block";
         document.querySelector("img").src = data.hdurl;
@@ -41,6 +39,7 @@ function getFetch(){
           console.log(`error ${err}`)
       });
 }
+
 
 
 Essentially by clicking the button (from HTML), it triggers the function of getFetch (function above), 
