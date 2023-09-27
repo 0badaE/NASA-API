@@ -48,4 +48,4 @@ That date gets added at the end of the link using backticks( `${}`) this way I c
 that fetches the object uploaded on that specific date. 
 then the rest of the paragraph is how I parse through the data and handle things,(in case I get a video, or photo. I used a conditional very simple stuff.
 
-The front end was designed using HTML and CSS, I tried my best to make it properly themed. 
+The front end was designed using HTML and CSS(used Media in CSS to make the site adjust based on window size), I tried my best to make it properly themed. 
